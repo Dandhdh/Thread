@@ -27,6 +27,7 @@ public class SemaphoreTest {
 
     public static void main(String[] args) {
 
+
         for(int i=0; i<THREAD_COUNT; i++){
             threadPool.execute(new Runnable() {
                 @Override
