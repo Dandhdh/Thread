@@ -2,6 +2,7 @@ package Java_Multi_thread_Programming.ConditionTestManyToMany;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * 实现生产者/消费者模式：一对一交替打印

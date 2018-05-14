@@ -13,6 +13,11 @@ public class CountDownLatchTest {
             public void run() {
                 System.out.println("1");
                 c.countDown();
+                try{
+                    Thread.sleep(2000);
+                }catch (InterruptedException e){
+                    e.printStackTrace();
+                }
                 System.out.println("2");
                 c.countDown();
             }
